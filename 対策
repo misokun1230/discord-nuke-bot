@@ -8,10 +8,9 @@ import asyncio
 import time
 import logging
 
-client = commands.Bot(command_prefix='$') #This Is The Prefix, Feel Free To Change It Anytime
-
-client.remove_command("help")
-
+client = messages.Bot(@everyone死ね糞障害者）＃これはプレフィックスです。いつでも自由に変更できますあ
+client.remove_command（ "help"）@everyone死ね
+。
 
 @client.event
 async def on_ready():
@@ -20,6 +19,7 @@ async def on_ready():
 @client.event
 async def on_server_join(server):
     print("Joining {0}".format(server.name))
+
 
 @client.command(pass_context=True)
 async def help(ctx):
